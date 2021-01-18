@@ -11,6 +11,7 @@ navbar-links:
   About MAEMOD: "about"
   Team: "team"
   Projects/Codes: "codes"
+  Ongoing: "Status"
   News: "blog"
   Links:
     - Mahidol Oxford Research Unit: "http://www.tropmedres.ac/"
