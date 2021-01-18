@@ -3,7 +3,7 @@ layout: page
 title: Mathematical and Economic MODelling (MAEMOD)
 subtitle: The Mathematical and Economic MODelling (MAEMOD) Department, Mahidol-Oxford Tropical Medicine Research Unit (MORU)
 ---
-![MORU logo](/img/morulogo.png)
+![MORU logo](/img/Moru.webp)
 
 The Mathematical and Economic MODelling (MAEMOD) Department’s main research focus is mathematical and economic models for the transmission, control and elimination of tropical diseases. Because of its position in a tropical medicine research unit serving South-East Asia, MAEMOD’s work is closely integrated with other disciplines. This results in research that is highly pragmatic and data-driven, often involving dynamic interplay with experiments and field research.
 
