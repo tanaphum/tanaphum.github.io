@@ -1,0 +1,92 @@
+# url is the full website URL
+# baseurl is the website's URL without the hostname
+url: "https://tanaphum.github.io/MAEMOD-MORU.github.io/"
+baseurl: ""
+
+title: Mathematical and Economic MODelling (MAEMOD)
+description: The Mathematical and Economic MODelling (MAEMOD) Department
+
+# List of links in the navigation bar
+navbar-links:
+  About MAEMOD: "about"
+  Team: "team"
+  Projects/Codes: "codes"
+  News: "blog"
+  Links:
+    - Mahidol Oxford Research Unit: "http://www.tropmedres.ac/"
+    - GitHub Pages: "https://www.github.com/maemod-moru"
+
+    
+    
+# Change all these values or delete the ones you don't want (these appear in the footer).
+# Important: you must keep the "name" parameter, everything else you can remove
+author:
+  name: "MAEMOD"
+  email: "saralamba@gmail.com"
+  github: "maemod-moru.github.io"
+  facebook:   
+  twitter:    
+
+# Select which links to show in the footer
+footer-links-active:
+  github: true
+  email: true
+  rss: false
+  facebook: false
+  twitter: false
+
+# Select which share links to show in posts
+share-links-active:
+  twitter: true
+  facebook: true
+  google: false
+  linkedin: true
+  
+
+navbar-col: "#F5F5F5"
+navbar-text-col: "#404040"
+navbar-children-col: "#F5F5F5"
+page-col: "#FFFFFF"
+link-col: "#008AFF"
+hover-col: "#0085A1"
+footer-col: "#F5F5F5"
+footer-text-col: "#777777"
+footer-link-col: "#404040"
+  
+# Output options (more information on Jekyll's site)
+timezone: "Asia/Bangkok"
+markdown: kramdown
+highlighter: rouge
+permalink: /:year-:month-:day-:title/
+paginate: 5
+paginate_path: "/blog/page:num/"
+
+kramdown:
+  input: GFM
+
+# Default YAML values (more information on Jekyll's site)
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      comments: true  # add comments to all blog posts
+      social-share: true # add social media sharing buttons to all blog posts
+  -
+    scope:
+      path: "" # all files
+    values:
+      layout: "page"
+      show-avatar: true
+
+# Exclude these files from production site
+exclude:
+  - LICENSE
+  - README.md
+
+gems:
+  - jekyll-paginate
+
+theme: jekyll-theme-slate
