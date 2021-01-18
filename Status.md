@@ -5,4 +5,4 @@ subtitle: This is where we share our software, codes, data and information of ou
 ---
 
 # Projects
-- [Modelling optimal strategies to screen and treat chronic Hepatitis C Virus infections (Ongoing)]
+- Modelling optimal strategies to screen and treat chronic Hepatitis C Virus infections (Ongoing)
